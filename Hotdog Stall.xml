@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ModName>Hotdog Stall</ModName>
+  <ModDiscription>Adds a cute little Hotdog stall to your park!</ModDiscription>
+  <Objects>
+    <Object>
+      <OBJName>Hotdog Stall@hotdog</OBJName>
+      <Type>Shop</Type>
+      <inGameName>Hotdog Stall</inGameName>
+      <price>150</price>
+      <Shop>
+        <Product>
+          <Model>Hotdog Stall@Null</Model>
+          <Price>1</Price>
+          <Type>consumable</Type>
+          <Name>Hotdog</Name>
+          <Hand>Right</Hand>
+          <ConsumeAnimation>generic</ConsumeAnimation>
+          <Temprature>none</Temprature>
+          <Portions>10</Portions>
+          <Ingredients>
+            <Ingredient>
+              <Name>Sausage </Name>
+              <Price>1</Price>
+              <Amount>100</Amount>
+              <tweakable>true</tweakable>
+              <Effects>
+                <effect>
+                  <Type>hunger</Type>
+                  <Amount>-1</Amount>
+                </effect>
+              </Effects>
+            </Ingredient>
+            <Ingredient>
+              <Name>Bread</Name>
+              <Price>1</Price>
+              <Amount>100</Amount>
+              <tweakable>true</tweakable>
+              <Effects>
+                <effect>
+                  <Type>hunger</Type>
+                  <Amount>-1</Amount>
+                </effect>
+              </Effects>
+            </Ingredient>
+          </Ingredients>
+        </Product>
+      </Shop>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+    <Object>
+      <OBJName>Hotdog Stall@Capsule_3</OBJName>
+      <Type>none</Type>
+      <inGameName>Capsule_3</inGameName>
+      <price>0</price>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+    <Object>
+      <OBJName>Hotdog Stall@Null</OBJName>
+      <Type>none</Type>
+      <inGameName>Null</inGameName>
+      <price>0</price>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+  </Objects>
+</Mod>

@@ -1,2 +1,4 @@
-# Hotdog-Stall
-Adds a Hotdog stall to your park!
+# CustomSceneryModTemplate
+Mod template for custom scenery
+
+See https://parkitectnexus.com/modding-wiki for documentation
